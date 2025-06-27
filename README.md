@@ -1,21 +1,19 @@
-# The-BookNook-Library
-A Library Management System built using Python (Tkinter) and MySQL to manage books, students, and borrowing operations efficiently.
-
-
 # 📚 BookNook Library Management System
 
-**BookNook** is a simple yet functional Library Management System developed using **Python** with **Tkinter** for the Graphical User Interface and **MySQL** for the database. This system allows libraries to efficiently manage books, students, and book issue/return operations.
+**BookNook** is a comprehensive Library Management System designed using **Python** with **Tkinter** for the graphical interface and **MySQL** for database operations. The system handles user registration, secure login, password recovery, and complete library management — ideal for small to medium-sized libraries or educational projects.
 
 ---
 
-## 🔧 **Features**
+## 🚀 **Features**
 
-✅ Add, update, and delete book records  
-✅ Manage student details  
-✅ Issue and return books  
-✅ Search functionality for books and students  
-✅ User-friendly GUI built with Tkinter  
-✅ Secure database integration with MySQL  
+✅ User Registration with validation  
+✅ Secure Login system with password recovery option  
+✅ Admin-only access to Library Management  
+✅ Add, Update, Delete, and View Library Members  
+✅ Manage Book Details including Issue Date, Due Date, Fine, etc.  
+✅ Real-time Data Display using Tkinter Treeview  
+✅ Search and Selection from Preloaded Book List  
+✅ Clean, user-friendly GUI  
 
 ---
 
@@ -25,28 +23,36 @@ A Library Management System built using Python (Tkinter) and MySQL to manage boo
 - Tkinter (GUI)  
 - MySQL (Database)  
 - MySQL Connector for Python  
+- PIL (for image handling)  
 
 ---
 
 ## ⚙️ **Setup Instructions**
 
-1. Ensure you have Python installed  
-2. Install required library:  
-3. Set up a MySQL database and import the provided SQL file
-4. Update the database connection details inside the Python project  
-5. Run the main Python file to launch the application  
+1. Install Python  
+2. Install dependencies:  
+3. Set up a MySQL database:
+- Create a database named `db`
+- Create required tables: `register` and `new_library`  
+4. Update MySQL connection credentials in the Python code if necessary  
+5. Place images in an `Images` folder as required by the interface  
+6. Run the project:  
 
 ---
 
-## 🤝 **Contributions**
+## ✨ **Future Improvements (Optional)**
 
-This project is developed for educational purposes. Contributions and suggestions are welcome!
+- Improved password security (hashed passwords)  
+- Export reports (PDF/CSV)  
+- Search and filter functionalities  
+- Database error handling  
 
 ---
 
 ## 📩 **Contact**
 
-For any queries or feedback, feel free to reach out.
+For suggestions or feedback, feel free to reach out.
 sahilnb20@gmail.com
 
+---
 
